@@ -14,7 +14,7 @@ class index {
 		Twig_Autoloader::register();
 		
 		$loader = new Twig_Loader_Filesystem($tplPath);
-		$twig = new Twig_Environment($loader, array('auto_reload' => TRUE));
+		$twig = new Twig_Environment($loader, array('debug' => TRUE, 'auto_reload' => TRUE));
 		$template = $twig->loadTemplate('index.tpl');
 		
 		echo $template->render(array());
