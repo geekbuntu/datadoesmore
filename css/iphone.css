@@ -6,7 +6,72 @@ body {
 	padding: 0px;
 }
 
+a, u {
+	cursor: pointer;
+	display: inline;
+}
+
+form, fieldset, input {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.login_form {
+	padding: 20 20 20 20;
+	margin_bottom: 20px;
+}
+
+.login_form form {
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+}
+
+.login_form .login_form_label {
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.login_form .login_form_field {
+	width: 100%;
+	font-size: 18px;
+	font-weight: normal;
+	padding: 8 5 8 5;
+	border-radius: 5px;
+	-moz-border-radius: 3px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+
+.login_form .button {
+	margin: 10 0 0 0;
+	padding: 8 30 8 30;
+	font-size: 14px;
+}
+
+.button {
+	display: block;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 8px;
+	background-color: #3b5998;
+	color: #FFFFFF;
+	border-top: 1px solid #9faecd;
+	border-left: 1px solid #9faecd;
+	padding: 4 15 4 15;
+}
+
 .processtime {
 	font-size: .7em;
 	font-style: italic;
+}
+
+hr {
+margin-top: 20px;
+clear: both;
 }
