@@ -1,6 +1,5 @@
 body {
-	font-family: Helvetica;
-	background-color: #ddd;
+	font-family: Helvetica, Arial;
 	font-size: 14px;
 	margin: 0px;
 	padding: 0px;
@@ -66,10 +65,65 @@ form, fieldset, input {
 	padding: 4 15 4 15;
 }
 
+
+/* ESP Select */
+
+ul#espSelect {
+	list-style-type: none;
+}
+
+ul#espSelect li {
+	margin: 0 0 10 0;
+}
+
+
+/* Message list */
+.messageList {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	color: white;
+}
+
+.messageList h1, h2, h3, h4 {
+	padding: 0px;
+	margin: 0px;
+}
+
+.messageList h2 {
+	margin: 0 0 0 2;
+}
+
+.messageList ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0 0 10 0;
+	background-color: #CCC;
+	color: black;
+	font-size: 1.2em;
+}
+
+.messageList li {
+	padding: 0 0 3 0;
+	margin: 0 0 0 2;
+	color: black;
+}
+
+.messageList li a {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+}
 .processtime {
 	font-size: .7em;
 	font-style: italic;
 }
+
+/* Message */
+.message {
+
+}
+
 
 hr {
 margin-top: 20px;
